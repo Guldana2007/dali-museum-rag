@@ -42,3 +42,11 @@ A short demonstration video (1–3 minutes) will be added after the Streamlit UI
 ## 7. How to Run
 
 ### Notebook version:
+pip install -r requirements.txt
+open notebook/dali_rag.ipynb
+run all cells
+
+### Streamlit UI:
+pip install -r requirements.txt
+streamlit run app_streamlit.py
+
