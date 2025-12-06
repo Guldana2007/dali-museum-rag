@@ -1,5 +1,5 @@
-chromadb
 openai
-python-dotenv
-streamlit
+chromadb
 tqdm
+sentence-transformers
+streamlit
