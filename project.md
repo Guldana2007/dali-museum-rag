@@ -1,28 +1,44 @@
 # Development of RAG-based AI System — Guldana Kassym-Ashim
 
 ## 1. Project Idea
-RAG assistant for The Dalí Museum website.
+This project implements a Retrieval-Augmented Generation (RAG) system focused on The Dalí Museum.  
+The assistant answers user questions by retrieving relevant information from a small curated dataset and generating responses using OpenAI models.
 
 ## 2. Dataset
-Custom dataset created from museum descriptions and artwork information.
+A custom dataset was created manually based on publicly available descriptions of:
+- The museum overview  
+- Visitor information  
+- Tickets and hours  
+- Exhibitions  
+- Location  
+
+The dataset is stored as `dali_chunks.json` and is used to build the vector database.
 
 ## 3. Architecture
-- Embeddings API
-- Chroma vector DB
-- LLM (DIAL or HuggingFace)
-- Jupyter Notebook
-- Optional Streamlit UI
+- OpenAI Embedding model: `text-embedding-3-small`  
+- Vector database: ChromaDB  
+- LLM: `gpt-4o-mini`  
+- Jupyter Notebook (Google Colab) as the development environment  
+- Optional Streamlit UI for interactive demonstration  
 
 ## 4. Implementation Steps
-All 9 required steps have been implemented (details to be filled after coding).
+All required steps of the Module 3 assignment are implemented:
+1. Dataset preparation  
+2. Embeddings generation  
+3. Vector DB creation  
+4. Retrieval pipeline  
+5. LLM-based answer generation  
+6. Full RAG assembly  
+7. Evaluation with test queries  
+8. Streamlit user interface  
+9. Documentation and repository setup  
 
 ## 5. GitHub Repository
 https://github.com/Guldana2007/dali-museum-rag
 
 ## 6. Demo Video
-link will be added
+A short demonstration video (1–3 minutes) will be added after the Streamlit UI.
 
 ## 7. How to Run
-pip install -r requirements.txt
-open notebook/dali_rag.ipynb
-run all cells
+
+### Notebook version:
