@@ -37,7 +37,7 @@ All required steps of the Module 3 assignment are implemented:
 https://github.com/Guldana2007/dali-museum-rag
 
 ## 6. Demo Video
-A short demonstration video (1–3 minutes) will be added after the Streamlit UI.
+A short demonstration video (1–3 minutes) will be added.
 
 ## 7. How to Run
 
@@ -49,4 +49,7 @@ run all cells
 ### Streamlit UI:
 pip install -r requirements.txt
 streamlit run app_streamlit.py
+The app will open automatically at:
+http://localhost:8501
+
 
