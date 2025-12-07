@@ -40,6 +40,8 @@ or open in Google Colab:
 
 pip install -r requirements.txt
 streamlit run app_streamlit.py
+The app will open at:
+http://localhost:8501
 
 ---
 
